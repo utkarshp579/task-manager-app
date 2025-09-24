@@ -1,0 +1,8 @@
+express mongoose bcryptjs jsonwebtoken cors dotenv
+nodemon
+
+
+package.json 
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
