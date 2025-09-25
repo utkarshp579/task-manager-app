@@ -1,5 +1,8 @@
 Backened deployed Link :- https://task-manager-backend-shj6.onrender.com
+Frontened :- https://task-manager-app-two-pi.vercel.app/
 
+https://dashboard.render.com/web/srv-d3ah77ur433s73dbc8tg/settings
+https://vercel.com/utkarshs-projects-f7ae642c/task-manager-app/settings/build-and-deployment
 
 http://localhost:5000/api/auth/register --> Working
     {

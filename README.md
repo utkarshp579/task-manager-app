@@ -4,8 +4,8 @@ A modern, responsive task management application built with React.js frontend an
 
 ## 🚀 Live Demo
 
-- **Frontend**: [Deployed URL will be here]
-- **Backend API**: [API URL will be here]
+- **Frontend**: https://task-manager-app-two-pi.vercel.app/
+- **Backend API**: https://task-manager-backend-shj6.onrender.com/
 - **Demo Credentials**: 
   - Email: john@example.com
   - Password: 123456
