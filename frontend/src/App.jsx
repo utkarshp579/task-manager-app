@@ -6,6 +6,7 @@ import {
   Navigate,
 } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
+import { TasksProvider } from "./contexts/TasksContext"; // ✅ Added import
 import ProtectedRoute from "./components/common/ProtectedRoute";
 
 // Auth pages
@@ -54,7 +55,10 @@ function App() {
               element={
                 <ProtectedRoute>
                   <Navbar />
-                  <Tasks />
+                  {/* ✅ Wrapped with TasksProvider */}
+                  <TasksProvider>
+                    <Tasks />
+                  </TasksProvider>
                 </ProtectedRoute>
               }
             />
