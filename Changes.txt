@@ -1,0 +1,19 @@
+<!--
+    Need to add 
+    ### 📱 Screenshots
+    Dashboard
+    Show Image
+    Tasks Management
+    Show Image
+    Mobile View
+    Show Image
+ -->
+
+
+ ### 📈 Scalability Considerations
+Current Architecture
+
+Component-based React structure
+Context API for state management
+Modular backend with separate routes and controllers
+MongoDB for flexible data storage
