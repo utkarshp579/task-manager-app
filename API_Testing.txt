@@ -1,0 +1,29 @@
+http://localhost:5000/api/auth/register --> Working
+    {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "123456"
+    }
+
+    {
+        "message": "User registered successfully",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGQzYmMwYzdlNjNlNWM1MDEwNzA1Y2EiLCJpYXQiOjE3NTg3MDY3MDAsImV4cCI6MTc1OTMxMTUwMH0.EHoS7GLvW6TCTwRdIicgQB_WhwECirUHirYhvKbjCKY",
+        "user": {
+            "id": "68d3bc0c7e63e5c5010705ca",
+            "name": "John Doe",
+            "email": "john@example.com"
+        }
+    }
+
+
+http://localhost:5000/api/auth/login --> Login Route working
+    {
+        "message": "Login successful",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGQzYmMwYzdlNjNlNWM1MDEwNzA1Y2EiLCJpYXQiOjE3NTg3MDcwOTUsImV4cCI6MTc1OTMxMTg5NX0._vM2qhRF8hhV05lvnJzw2W3NVBj5sIRwVyz9u1J1NPI",
+        "user": {
+            "id": "68d3bc0c7e63e5c5010705ca",
+            "name": "John Doe",
+            "email": "john@example.com"
+        }
+    }
+

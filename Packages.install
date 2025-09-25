@@ -6,3 +6,9 @@ package.json
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
+
+// Frontened
+  npm install react-router-dom axios
+npm install -D tailwindcss postcss autoprefixer
+npm install lucide-react
